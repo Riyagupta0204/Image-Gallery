@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    
+
+</head>
+
+<body background="bg.jpg">
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 30%;
+      padding: 20px;
+      border-radius: 20px;
+      border-radius: 1px solid black;
+     
+    }
+    .pol{
+        background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    h1{
+        text-align: center;
+        font-style: italic;
+
+    }
+    img{
+        border: 1px solid white;
+        border-radius: 4px;
+         padding: 1px;
+
+    }
+    img:hover {
+    transform: scaleX(-1);
+}
+    figcaption{
+        text-align: center;
+        padding: 10px 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    </style>
+    </head>
+    <body>
+    
+<h1><u>Famous Islands</h1></u>
+    
+    
+    <div class="row">
+      <div class="column">
+        <figure class="pol">
+        <img src="bali.jpg" alt="Snow" style="width:100%">
+        <figcaption>Bali</figcaption>
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="pol">
+        <img src="maui.jpg" alt="Forest" style="width:100%">
+        <figcaption>Maui</figcaption>
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="pol">
+        <img src="bora bora.jpg" alt="Mountains" style="width:100%">
+        <figcaption>Bora Bora</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column">
+           <figure class="pol">
+          <img src="capri.jpg" alt="Snow" style="width:100%">
+          <figcaption>capri</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+            <figure class="pol">
+          <img src="kauai.jpg" alt="Forest" style="width:100%">
+          <figcaption>Kauai</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+        <figure class="pol">
+          <img src="santorini.jpg" alt="Mountains" style="width:100%">
+          <figcaption>Santorini</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+            <figure class="pol">
+            
+          <img src="hawai.jpg" alt="Snow" style="width:100%">
+          <figcaption>Hawai</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+           <figure class="pol">
+          <img src="boracay.jpg" alt="Forest" style="width:100%">
+          <figcaption>Boracay</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+            <figure class="pol">
+          <img src="skye.jpg" alt="Mountains" style="width:100%">
+          <figcaption>skye</figcaption>
+          </figure>
+        </div>
+      </div>
+    
+    
+    </body>
+    </html>
+    
